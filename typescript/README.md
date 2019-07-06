@@ -14,12 +14,6 @@ npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslin
 // settings.json
 "files.autoSave": "off",
 "editor.formatOnSave": false,
-"prettier.disableLanguages": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-],
 "eslint.validate": [
     "javascript",
     "javascriptreact",

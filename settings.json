@@ -1,6 +1,9 @@
 {
 	"files.autoSave": "off",
 	"editor.formatOnSave": false,
+	"[css]": {
+		"editor.formatOnSave": true // for prettier
+	},
 	"prettier.disableLanguages": [
 		"javascript",
 		"javascriptreact",
