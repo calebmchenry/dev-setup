@@ -1,7 +1,7 @@
 module.exports = {
     extends: ["airbnb-typescript", "eslint-config-prettier"],
-    parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', "prettier"],
+    parser: "@typescript-eslint/parser",
+    plugins: ["@typescript-eslint", "prettier"],
     rules: {
         "prettier/prettier": [
             "error",
