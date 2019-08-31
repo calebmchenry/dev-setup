@@ -5,6 +5,8 @@
 3. `npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
 4. `npm i -D typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin`
 
+## VS Code Integration
+
 ```json
 // settings.json
 "files.autoSave": "off",
