@@ -11,14 +11,9 @@
 ```
 
 ```json
-	"editor.formatOnSave": false, // use eslint instead
-	"[css]": {
-		"editor.formatOnSave": true // enable prettier
-	},
-	"prettier.disableLanguages": [
-		"javascript",
-		"javascriptreact",
-		"typescript",
-		"typescriptreact"
-	],
+// settings.json
+"editor.formatOnSave": false, // use eslint instead
+"[css]": {
+	"editor.formatOnSave": true // enable prettier
+},
 ```

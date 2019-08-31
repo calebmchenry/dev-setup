@@ -1,6 +1,6 @@
 module.exports = {
-	extends: ["airbnb-base", "eslint-config-prettier"],
-	env: {
+    extends: ["airbnb", "eslint-config-prettier"],
+    env: {
 		browser: true,
 		jest: true,
 		node: true,
@@ -17,7 +17,7 @@ module.exports = {
                 "singleQuote": true
             }
         ]
-	},
+    },
 	settings: {
         'import/extensions': [".js",".jsx",".ts",".tsx"],
         'import/parsers': {

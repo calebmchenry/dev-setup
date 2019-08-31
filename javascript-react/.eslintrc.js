@@ -1,9 +1,8 @@
 module.exports = {
-    extends: ["airbnb-base", "eslint-config-prettier"],
+    extends: ["airbnb", "eslint-config-prettier"],
     env: {
 		browser: true,
 		jest: true,
-		node: true,
 	},
     plugins: ["prettier"],
     rules: {
