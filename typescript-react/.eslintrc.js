@@ -17,7 +17,8 @@ module.exports = {
                 "singleQuote": true
             }
         ],
-	"import/prefer-default-export": 0,
+        "import/prefer-default-export": 0,
+        "react/jsx-filename-extension": [2, { "extensions": [".jsx", ".tsx"] }],
         "react/jsx-indent": [2, 4, {indentLogicalExpressions: false}],
         "react/jsx-indent-props": [2, 4],
         "react/jsx-props-no-spreading": 0,
