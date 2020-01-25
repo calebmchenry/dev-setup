@@ -1,8 +1,9 @@
-{
+{	
+	// Formatting
 	"files.autoSave": "off",
 	"editor.formatOnSave": false,
 	"[css]": {
-		"editor.formatOnSave": true // for prettier
+		"editor.formatOnSave": true
 	},
 	"prettier.disableLanguages": [
 		"javascript",
@@ -13,8 +14,10 @@
 	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
-		{ "language": "typescript", "autoFix": true },
-		{ "language": "typescriptreact", "autoFix": true }
+		"typescript",
+		"typescriptreact",
 	],
-	"eslint.autoFixOnSave": true
+	"editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+	}
 }
