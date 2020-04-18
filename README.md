@@ -1,2 +1,7 @@
-# dev-setup
-Files for setting up a web development folder quickly
+# Configuration Files
+
+* eslint
+* nvim
+* prettier
+* typescript
+* vscode
